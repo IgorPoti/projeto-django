@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from recipes.views import home, sobre, contato
+from recipes.views import home
 
 
 urlpatterns = [
